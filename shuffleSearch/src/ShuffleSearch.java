@@ -17,8 +17,8 @@ public class ShuffleSearch {
                     originalWord1CorrectCharacterCount++;
                 }
             }
-            for (int j = 0; j < originalWord1.length; j++) {
-                if (shuffle[i] == originalWord1[j] && i > originalWord2LastFoundCharacterIndex) {
+            for (int j = 0; j < originalWord2.length; j++) {
+                if (shuffle[i] == originalWord2[j] && i > originalWord2LastFoundCharacterIndex) {
                     originalWord2LastFoundCharacterIndex = i;
                     originalWord2CorrectCharacterCount++;
                 }
