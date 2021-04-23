@@ -1,6 +1,7 @@
 # generated configs
 .idea/
 *.iml
+*.xml
 target/
 
 # Compiled class file
